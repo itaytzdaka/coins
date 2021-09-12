@@ -98,8 +98,8 @@ img{
 #loader{
   display: block;
   margin: auto;
-  height: 400px;
-  width: 500px;
+  height: 50%;
+  width: 50%;
 }
 
 
@@ -119,4 +119,11 @@ img{
   font-size: 60px;
   font-weight: bold;
   padding-right: 40%;
+}
+
+
+@media only screen and (max-width: 520px) {
+  h1{
+    font-size: 45px !important;
+  }
 }
